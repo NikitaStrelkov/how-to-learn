@@ -8,7 +8,6 @@ h2 {
 
 p {
   display: block;
-
 }
 
 div {
@@ -49,7 +48,6 @@ body {
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-
   /* выше установили ограничения для секции */
 }
 
@@ -61,7 +59,6 @@ body {
   background-image:url(../images/logo_place_header.svg);
   height: 32px;
   width: 183px;
-
 }
 
 .header_title {
@@ -107,7 +104,6 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
- /*background-image: url(../images/header-image.png);*/
   background-size: cover;
 }
 
@@ -323,7 +319,6 @@ body {
   text-align: center;
 }
 
-
 .table_theme_dark {
   display: flex;
   position: relative;
@@ -334,7 +329,6 @@ body {
   margin: 0px auto;
   z-index: 2;
   padding: 0px;
-
  }
 
 .table__cell_theme_dark {
@@ -342,7 +336,6 @@ body {
   width: 200px;
   color: white;
   margin: 80px 0 0;
-
  }
 
 .table__heading_theme_dark {
@@ -376,32 +369,104 @@ body {
 .footer {
   min-height: 350px;
   display: flex;
-  position: relative;
   background-color: #1f1f1f;
+  margin: 0;
+  padding: 0;
+  color: white;
 }
 
 .footer__columns {
-display: flex;
-position: absolute;
-flex-direction: row;
-justify-content: space-around;
-align-content: space-between;
-width: 90%;
-margin: 0 auto;
-flex-basis: 711px;
-padding: 60px 0 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 60px 0 40px;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  flex-basis: 711px;
 }
 
 .logo__place_footer {
-position: absolute;
-top: 0px;
-left: 40px;
-background-image:url(../images/logo_place_footer.svg);
-height: 35px;
-width: 183px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-image:url(../images/logo_place_footer.svg);
+  height: 35px;
+  width: 183px;
 }
-.footer__author {
 
+.footer__author {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  margin: 18px 0;
+}
+
+.footer__column_content_info {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-heading {
+  display: block;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 16px;
+  padding: 0;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column_content_social {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__social-icons {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 16px;
+  padding: 0;
+}
+
+.footer__social-icon {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
+
+.icon {
+  padding: 0;
+  margin: 0 10px 0 0;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента
 .header__square-pic {
