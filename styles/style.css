@@ -56,7 +56,6 @@ body {
   position: absolute;
   top: 30px;
   left: 64px;
-  background-image:url(../images/logo_place_header.svg);
   height: 32px;
   width: 183px;
 }
@@ -104,7 +103,6 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  background-image: url(../images/header-image.png);
   background-size: cover;
 }
 
@@ -394,7 +392,6 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image:url(../images/logo_place_footer.svg);
   height: 35px;
   width: 183px;
 }
