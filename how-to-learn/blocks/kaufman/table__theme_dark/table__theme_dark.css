@@ -1,0 +1,11 @@
+.table_theme_dark {
+  z-index: 1;
+  padding: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-content: space-between;
+  position: relative;
+  
+ }
