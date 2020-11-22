@@ -1,4 +1,5 @@
 .resources__link {
+  list-style: none;
   opacity: 1;
 }
 .resources__link:hover {
